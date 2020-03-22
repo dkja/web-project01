@@ -9,23 +9,23 @@
 <body>
   <form>
       <label id="fnamel" for="fname">Imię:</label><br>
-      <input type="text" id="fname" name="fname" aria-labelledby="fnamel"><br>
+      <input role="textbox" type="text" id="fname" name="fname" aria-labelledby="fnamel"><br>
 
       <label id="lnamel" for="lname">Nazwisko:</label><br>
-      <input type="text" id="lname" name="lname" aria-labeledby="lnamel"><br>
+      <input role="textbox" type="text" id="lname" name="lname" aria-labeledby="lnamel"><br>
 
       <label id="birthl" for="birth">Data urodzenia:</label><br>
       <input type="date" id="birth" name="birth" aria-labeledby="birthl"><br>
 
 
       <label id="sexl" for="sex">Sex:</label><br>
-      <select id="sex" name= "sex">
-        <option value="yes">Yes, please</option>
-        <option value="no">No, no, no...</option>
-      </select><br>
+      <input role="radio" type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input role="radio" type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
 
       <label id="addressl" for="address">Adres:</label><br>
-      <input type="text" id="address" name="address" aria-labeledby="addressl"><br>
+      <input role="textbox" type="text" id="address" name="address" aria-labeledby="addressl"><br>
 
       <label id="phonel" for="phone">Numer telefonu:</label><br>
       <input type="tel" id="phone" name="phone" aria-labeledby="phonel"><br>
@@ -34,7 +34,7 @@
       <input type="email" id="mail" name="mail" aria-labeledby="maill"><br>
 
       <label id="usernamel" for="username">Nazwa użytkownika:</label><br>
-      <input type="text" id="username" name="username" aria-labeledby="usernamel"><br>
+      <input role="textbox" type="text" id="username" name="username" aria-labeledby="usernamel"><br>
 
       <label id="passwordl" for="password">Hasło:</label><br>
       <input type="password" id="password" name="password" aria-labeledby="passwordl"><br>
@@ -42,7 +42,7 @@
       <label id="repl" for="rep-password">Powtórz hasło:</label><br>
       <input type="password" id="rep-password" name="rep-password" aria-labeledby="repl"><br>
 
-      <input type="submit" value="Zarestruj">
+      <input role="button" type="submit" role="button" value="Zarejestruj">
 
   </form>
 </body>
