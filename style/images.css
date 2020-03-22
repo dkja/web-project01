@@ -16,3 +16,9 @@
     justify-content: center;
     align-items: center;
   }
+
+  .image3:hover {
+    position: relative;
+    left: 50px;
+    top: 50px;
+  }
