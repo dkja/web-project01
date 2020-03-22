@@ -8,3 +8,12 @@
     border: solid;
     color: crimson
 }
+
+#footer {
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+    font-size: 30px;
+    background-color: gray;
+    min-height: 200px
+}
