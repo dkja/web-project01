@@ -1,6 +1,9 @@
 .image1 {
     text-align: center;
   }
+  .image1:hover{
+    background-color: yellow;
+  }
 
   .image2 {
     display: block;
