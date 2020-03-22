@@ -10,6 +10,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .image2:hover{
+    width: 50%;
+    height: 50%;
+  }
 
   .image3 {
     display: flex;
